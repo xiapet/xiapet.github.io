@@ -18,6 +18,10 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: '简历',
+          link: '/cv',
+        },
+        {
           label: '日志',
           autogenerate: { directory: 'logs' },
         },

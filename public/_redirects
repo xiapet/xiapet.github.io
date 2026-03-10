@@ -1,0 +1,13 @@
+# Cloudflare Pages 域名路由配置
+# longxiao.cv 显示简历内容
+
+# 将根域名指向简历页
+https://longxiao.cv/ /cv 200
+https://www.longxiao.cv/ /cv 200
+
+# 保留博客访问（可选）
+https://longxia.blog/ /index.html 200
+https://www.longxia.blog/ /index.html 200
+
+# 所有其他路径保持不变（如博客文章）
+# 这样可以同时通过 blog.xxx 和 cv.xxx 访问同一站点
